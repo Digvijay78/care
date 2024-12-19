@@ -1,0 +1,77 @@
+# Node.js dependencies
+node_modules/
+
+# Production build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# Vercel and other deployment-related files
+.vercel/
+
+# Package lock files (if you only want to track `package.json`)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tests and coverage
+coverage/
+*.lcov
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Optional - Ignore local files created during development
+*.local
+*.config.js
+*.log
+
+# Exclude debug information
+*.debug.log
+
+# Ignore specific IDE files
+*.iml
+*.ipr
+
+# Ignore any output folders or temp data
+output/
+temp/
+.cache/
+.history/
+
+# Ignore Linux temporary files
+*.~undo-tree*
+
+# Ignore specific subfolders
+public/static/js/
+public/static/css/
+
+# Ignore auto-generated files by Vite
+.vite/
+
+# Ignore backup files
+*~
